@@ -47,7 +47,7 @@ export function StudyNotesHubJsx() {
       title: "Communication Skills", 
       file: "cs", 
       image: "https://images.pexels.com/photos/5439371/pexels-photo-5439371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      semesters: [1, 2],
+      semesters: [1, 2, 3],
       semester2Title: "Communication Skills",
     },
     { 
@@ -86,6 +86,36 @@ export function StudyNotesHubJsx() {
       image: "https://images.pexels.com/photos/19883686/pexels-photo-19883686/free-photo-of-rashtrapati-bhavan-presidential-palace-in-new-delhi-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       semesters: [2],
     }
+    {
+      title: "C++",
+      file: "cpp", // Short identifier (e.g., "os", "dbms")
+      image: "https://images.pexels.com/photos/33433724/pexels-photo-33433724.jpeg", // Pexels image URL
+      semesters: [3], // Array of available semesters
+    },
+    {
+      title: "ERP",
+      file: "erp", // Short identifier (e.g., "os", "dbms")
+      image: "https://images.pexels.com/photos/5904082/pexels-photo-5904082.jpeg", // Pexels image URL
+      semesters: [3], // Array of available semesters
+    },
+    {
+      title: "Statistical Method",
+      file: "sm", // Short identifier (e.g., "os", "dbms")
+      image: "https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg", // Pexels image URL
+      semesters: [3], // Array of available semesters
+    },
+    {
+      title: "Basics of Android",
+      file: "boa", // Short identifier (e.g., "os", "dbms")
+      image: "https://images.pexels.com/photos/8294591/pexels-photo-8294591.jpeg", // Pexels image URL
+      semesters: [3], // Array of available semesters
+    },
+    {
+      title: "Web Developement",
+      file: "web", // Short identifier (e.g., "os", "dbms")
+      image: "https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg", // Pexels image URL
+      semesters: [3], // Array of available semesters
+    },
   ];
 
   // Append progress to each topic
